@@ -1,4 +1,4 @@
-command = ["pip3", "instsall", "kagglehub"]
+command = ["pip3", "install", "kagglehub"]
 result = subprocess.run(command, capture_output=True, text=True)
 
 
