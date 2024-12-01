@@ -1,9 +1,11 @@
+import subprocess
+
 command = ["pip3", "install", "kagglehub"]
 result = subprocess.run(command, capture_output=True, text=True)
 
 
 import kagglehub
-import subprocess
+
 
 github = "/home/jovyan/data-store/CSC-396-Gaming-Toxicity"
 
