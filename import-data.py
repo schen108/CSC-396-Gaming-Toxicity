@@ -36,3 +36,18 @@ print(result.stdout)
 if result.stderr:
     print("Errors:")
     print(result.stderr)
+
+
+# Kaggle chats
+path = kagglehub.dataset_download("saurabhshahane/cyberbullying-dataset")
+print("Path to dataset files:", path)
+
+command = ["mv", path, github]
+result = subprocess.run(command, capture_output=True, text=True)
+print(f"Moved files from {path} to {github}")
+
+print(result.stdout)
+
+if result.stderr:
+    print("Errors:")
+    print(result.stderr)
