@@ -1,4 +1,4 @@
-# CSC-396-Gaming-
+# Toxicity Detection in Online Gaming
 
 Each of the transformer models (as described in our report) that we test are found in the following notebooks:
 - Dota Model: transformer_dota.ipynb
