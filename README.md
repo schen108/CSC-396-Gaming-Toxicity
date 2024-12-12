@@ -11,7 +11,7 @@ Each of the transformer models (as described in our report) that we trained and 
 
 Each of the datasets (as described in our report) are in the following csv files:
 - League of Legends Tribunal Chat Logs (Combined): dataToxic.csv
-- League of Legends Tribunal Chat Logs (Individual): chatupdate.csv
+- League of Legends Tribunal Chat Logs (Individual): chatupdate.csv (uploaded as a .rar file, unzip to use)
 - Dota 2 Game Chat Logs: tagged-data.csv
 - Cyberbullying Dataset: kaggle_parsed_dataset.csv
 
@@ -19,3 +19,5 @@ To run the code:
 1. Clone this repository's main branch.
 2. Open the notebook with the corresponding model that you want to train and test.
 3. Run all of the cells in the notebook, and the performance of the model on the data it was tested on will be displayed in the notebook.
+
+The results of some performance results are not included in the notebooks, but they can all be found in the report.
